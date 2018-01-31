@@ -6,7 +6,6 @@ date:   2018-01-31
 categories:
   - data
 ---
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # Naive Bayes Classification
 ## Extension to numeric features
@@ -47,7 +46,7 @@ $$
 We want the rule to predict $Y=1$ when $ odds > 1 $. <p>
 So for the log odds we want: $$ 0 < \ell(odds)$$
 
-### Decision rule given numeric $x$
+### Decision rule given numeric x
 Using the normal distribution for the likelihood, we can obtain a simple final rule for classification based on numeric $x$. This rule states that we predict $Y=1$ when the following inequality holds
 
 $$
