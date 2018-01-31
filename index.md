@@ -23,14 +23,14 @@ f(x) = (2\pi\sigma^2)^{-\frac{1}{2}} \exp\Big[ -\frac{(x-\mu)^2}{2\sigma^2} \Big
 $$
 <br> 
 
-We want to know the $\mathbb{P}(Y=y \mid x)$. We can start with Bayes' Rule which states the posterior probability is proportional to the prior times the likelihood$$ \mathbb{P}(Y=y \mid x) \propto \mathbb{P}(Y=y) \times f(x \mid Y=y) $$
+We want to know the $$\mathbb{P}(Y=y \mid x)$$. We can start with Bayes' Rule which states the posterior probability is proportional to the prior times the likelihood $$ \mathbb{P}(Y=y \mid x) \propto \mathbb{P}(Y=y) \times f(x \mid Y=y) $$
 
 
 We define the odds ratio $$
 odds = \frac{\mathbb{P}(Y=1)}{\mathbb{P}(Y=0)} \, \frac{f(x \mid Y=1)}{f(x \mid Y=0)}
 $$
-Let's assume $f(x \mid Y=1) \sim N(\mu_1,\sigma^2)$ and 
-$f(x \mid Y=0) \sim N(\mu_0,\sigma^2)$. That is, the variables are uncorrelated, with the same variance, so we can use the Naive Bayes approach. 
+Let's assume $$f(x \mid Y=1) \sim N(\mu_1,\sigma^2)$$ and 
+$$f(x \mid Y=0) \sim N(\mu_0,\sigma^2)$$. That is, the variables are uncorrelated, with the same variance, so we can use the Naive Bayes approach. 
 
 We define the $\ell(odds)$ to be the log of the posterior odds. 
 $$
