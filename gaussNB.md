@@ -1,10 +1,4 @@
----
-mathjax : true
-title:  "Gaussian Naive Bayes"
-date:   2018-01-31
-categories:
-  - data
----
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # Naive Bayes Classification
