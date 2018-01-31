@@ -1,7 +1,7 @@
 ---
 mathjax: true
 ---
-
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # Naive Bayes Classification
 ## Extension to numeric features
 ### By: Matteo Vaiente 
@@ -24,7 +24,7 @@ f(x) = (2\pi\sigma^2)^{-\frac{1}{2}} \exp\Big[ -\frac{(x-\mu)^2}{2\sigma^2} \Big
 $$
 <br> 
 
-We want to know the $\mathbb{P}(Y=y \mid x)$. We can start with Bayes' Rule which states the posterior probability is proportional to the prior times the likelihood$$ \mathbb{P}(Y=y \mid x) \propto \mathbb{P}(Y=y) \times f(x \mid Y=y) $$
+We want to know the $$\mathbb{P}(Y=y \mid x)$$. We can start with Bayes' Rule which states the posterior probability is proportional to the prior times the likelihood$$ \mathbb{P}(Y=y \mid x) \propto \mathbb{P}(Y=y) \times f(x \mid Y=y) $$
 
 
 We define the odds ratio $$
@@ -38,10 +38,10 @@ $$
 \ell(odds) = log\Big{[}\frac{\mathbb{P}(Y=1)}{\mathbb{P}(Y=0)}
                   \frac{f(x \mid Y=1)}{f(x \mid Y=0)}\Big{]} 
 $$
-We want the rule to predict $Y=1$ when $ odds > 1 $. <p>
+We want the rule to predict $$Y=1$$ when $$ odds > 1 $$. <p>
 So for the log odds we want: $$ 0 < \ell(odds)$$
 
-### Decision rule given numeric $x$
+### Decision rule given numeric $$x$$
 Using the normal distribution for the likelihood, we can obtain a simple final rule for classification based on numeric $x$. This rule states that we predict $Y=1$ when the following inequality holds
 
 $$
