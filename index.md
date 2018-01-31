@@ -38,7 +38,6 @@ $$
                   \frac{f(x \mid Y=1)}{f(x \mid Y=0)}\Big{]} 
 $$
 We want the rule to predict $$Y=1$$ when $$ odds > 1 $$. 
-
 So for the log odds we want: $$ 0 < \ell(odds)$$
 
 ### Decision rule given numeric $$x$$
