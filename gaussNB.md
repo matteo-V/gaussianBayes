@@ -1,5 +1,4 @@
 ---
-layout: post
 mathjax : true
 title:  "Gaussian Naive Bayes"
 date:   2018-01-31
