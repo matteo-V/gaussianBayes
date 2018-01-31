@@ -1,3 +1,6 @@
+---
+mathjax: true
+---
 
 # Naive Bayes Classification
 ## Extension to numeric features
