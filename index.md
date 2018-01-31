@@ -32,7 +32,7 @@ $$
 Let's assume $$f(x \mid Y=1) \sim N(\mu_1,\sigma^2)$$ and 
 $$f(x \mid Y=0) \sim N(\mu_0,\sigma^2)$$. That is, the variables are uncorrelated, with the same variance, so we can use the Naive Bayes approach. 
 
-We define the $\ell(odds)$ to be the log of the posterior odds. 
+We define the $$\ell(odds)$$ to be the log of the posterior odds. 
 $$
 \ell(odds) = log\Big{[}\frac{\mathbb{P}(Y=1)}{\mathbb{P}(Y=0)}
                   \frac{f(x \mid Y=1)}{f(x \mid Y=0)}\Big{]} 
