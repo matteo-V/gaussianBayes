@@ -10,7 +10,7 @@ We have seen the application of Naive Bayes classifier where we model the classi
 
 ### But first... a little theory. 
 
-A common approach is to assume each $x_i$ is conditionally normal.
+A common approach is to assume each $$x_i$$ is conditionally normal.
 <br>
 $$
 X_i | Y=y \sim N(\mu_{iy},\sigma^2_{iy})
@@ -39,7 +39,7 @@ We want the rule to predict $$Y=1$$ when $$ odds > 1 $$. <p>
 So for the log odds we want: $$ 0 < \ell(odds)$$
 
 ### Decision rule given numeric $$x$$
-Using the normal distribution for the likelihood, we can obtain a simple final rule for classification based on numeric $x$. This rule states that we predict $Y=1$ when the following inequality holds
+Using the normal distribution for the likelihood, we can obtain a simple final rule for classification based on numeric $$x$$. This rule states that we predict $$Y=1$$ when the following inequality holds
 
 $$
  0 < log\Big{[}\frac{\mathbb{P}(Y=1)}{\mathbb{P}(Y=0)}\Big{]} + \frac{(x-\mu_0)^2}{2\sigma^2}-\frac{(x-\mu_1)^2}{2\sigma^2}  
