@@ -103,7 +103,7 @@ x <- dat$dat
 y <- dat$elem
 ```
 
-### We use the decision rule derived above for predicting $Y_i$ given a numeric $x$. 
+### We use the decision rule derived above for predicting $$Y_i$$ given a numeric $$x$$. 
 
 
 ```R
